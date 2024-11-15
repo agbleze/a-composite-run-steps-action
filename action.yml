@@ -1,0 +1,11 @@
+name: "A simple composite step action"
+description: "A simple action that will use npm to create build and a run test"
+runs:
+  using: "composite"
+  steps:
+    - run: npm ci
+      shell: bash
+    - run: npm run test
+      shell: bash
+    - run: npm run build
+      shell: bash
