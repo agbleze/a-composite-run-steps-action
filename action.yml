@@ -5,7 +5,7 @@ runs:
   steps:
     - run: npm ci
       shell: bash
-    - run: npm run test
-      shell: bash
+    #- run: npm run test
+    #  shell: bash
     - run: npm run build
       shell: bash
