@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/agbleze/a-composite-run-steps-action/issues"
   },
-  "homepage": "https://github.com/agbleze/a-composite-run-steps-action#readme"
+  "homepage": "https://github.com/agbleze/a-composite-run-steps-action#readme",
+  "dependencies": {
+    "ci": "^2.3.0"
+  }
 }
