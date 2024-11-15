@@ -9,3 +9,6 @@ runs:
       shell: bash
     - run: npm run build
       shell: bash
+branding:
+  icon: 'book'
+  color: 'green'
